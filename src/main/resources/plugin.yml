@@ -1,0 +1,11 @@
+name: DeathSwap
+main: com.axlav.DeathSwap
+version: 1.0.0
+api-version: 1.17
+commands:
+  swap:
+    usage: /swap <player>
+    permission: DeathSwap.invite
+permissions:
+  DeathSwap.invite:
+    default: true
